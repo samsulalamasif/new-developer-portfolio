@@ -230,3 +230,11 @@ textarea {
 .contact a {
     text-decoration: none;
 }
+
+footer{
+    text-align: center;
+    font-style: bold;
+    font-style: oblique;
+    color: #FD6E0A;
+    
+}
