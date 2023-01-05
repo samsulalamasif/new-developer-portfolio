@@ -17,14 +17,14 @@
     position: relative;
     left: 190px;
     width: 900px;
-    height: 722px;
+    height: 673px;
 
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
