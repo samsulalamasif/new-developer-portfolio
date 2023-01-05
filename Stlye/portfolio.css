@@ -9,6 +9,11 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    width: 1600px, 584px;
+    height: 837px, 676p;
+    left: 0px, 978px;
+    top: 0px, 161px; 
+
 }
 
 nav {
@@ -163,13 +168,14 @@ main {
 
 .resume-content {
     display: flex;
-    gap: 22px
-    ;
+    gap: 22px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .resume .title {
     font-weight: 700;
     font-size: 25px;
@@ -188,7 +194,34 @@ main {
     color: #757575;
 
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+.contact .section-title {
+    text-align: left;
+
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 461px;
+    ;
+    padding: 18px 30px;
+}
+
+.contact a {
+    text-decoration: none;
 }
