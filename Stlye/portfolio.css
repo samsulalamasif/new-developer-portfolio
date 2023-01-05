@@ -10,9 +10,14 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
     width: 1600px, 584px;
-    height: 837px, 676p;
-    left: 0px, 978px;
-    top: 0px, 161px; 
+    height: 837px;
+}
+
+.img {
+    position: relative;
+    left: 190px;
+    width: 900px;
+    height: 722px;
 
 }
 
